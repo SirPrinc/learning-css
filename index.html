@@ -4,16 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>CSS FlexBox</title>
+    <title>CSS Mini-Project</title>
 </head>
 <body>
-    <main class="container">
-        <div class="box">1</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
-        <div class="box">4</div>
-        <div class="box">5</div>
-        <div class="box">5</div>
+    <header>
+        <h1>Our Staff</h1>
+        <nav>
+            <a href="#profile1">Joe</a>
+            <a href="#profile2">Matt</a>
+            <a href="#profile3">Jane</a>
+        </nav>
+    </header>
+
+    <main>
+        <article class="card" id="profile1">
+            <figure>
+                <img src="img/profile1.jpeg" alt="Joe Coder" width="500" height="500">
+                <figcaption>Joe coder</figcaption>
+            </figure>
+            <p><q>I code staffs.</q></p>
+        </article>
+
+        <article class="card" id="profile2">
+            <figure>
+                <img src="img/profile2.jpeg" alt="Matt Designer" width="500" height="500">
+                <figcaption>Matt Designer</figcaption>
+            </figure>
+            <p><q>I design stuffs.</q></p>
+        </article>
+
+        <article class="card" id="profile3">
+            <figure>
+                <img src="img/profile3.jpeg" alt="Deb Dev Rel" width="500" height="500">
+                <figcaption>Deb <span class="nowrap">Dev Rel</span></figcaption>
+            </figure>
+            <p><q>I teach stuffs.</q></p>
+        </article>
     </main>
+
+    <footer>
+        <p>&copy; Acme Co.</p>
+    </footer>
 </body>
 </html>
